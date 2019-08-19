@@ -1,0 +1,48 @@
+form{
+    width: 50%;
+    margin: auto
+}
+body{
+    text-transform: capitalize;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+label{
+    margin-top: 20px
+}
+.alert {
+    padding: 4px 15px;
+    margin-top: 5px;
+    display: none
+}
+input[type="submit"],input[type="reset"]{
+    color: #fff;
+    border-color: #fff;
+    padding: 11px 20px;
+    position: relative;
+    margin-bottom: 20px
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+    color: #fff;
+    transform: scale(1.1,1.1);
+    transition: all .5s ease-in-out;
+    
+}
+input[type="submit"]:hover{
+    margin-right: 15px;
+    
+}
+i{
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    padding: 16px 5px;
+    transform: scale(1.1,1.1);
+    transition: all .5s ease-in-out;
+}
+
+h1{
+    margin-bottom: 0
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="login form">
+        <title>login form</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/Hover-master/css/hover-min.css">
+        <link rel="stylesheet" href="css/jquery.nicescroll-3.7.6/dist/jquery.nicescroll.min.js">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/WOW-master/css/site.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    <body>
+
+        <div class="myForm wow bounce">
+            <div class="myform-Holder">
+                <div class="container">
+                    <form role="form" action="/form.php" method="post" name="myFormTest" onsubmit="return myTest()" autocomplete="off">
+                        <h1 class="text-center ">form title</h1>
+                        <label>First name</label>
+                        <input type="text" name="fname" placeholder="Enter F-Name:" class="form-control hvr-grow"  required>
+                        <div class="alert alert-danger" role="alert" id="fnameAlert">A simple primary alert—check it out!</div>
+                        
+                        <label>Last name</label>
+                        <input type="text" name="lname" placeholder="Enter L-Name:" class="form-control hvr-grow" required>
+                        <div class="alert alert-danger" role="alert" id="lnameAlert">A simple primary alert—check it out!</div>
+                        
+                        <label>email address</label>
+                        <input type="email" name="emial" placeholder="enter email address:"  class="form-control hvr-grow" required>
+                        <div class="alert alert-danger" role="alert" id="emailAlert">A simple primary alert—check it out!</div>
+                        
+                        <label>address</label>
+                        <input type="text" name="address" placeholder="enter address:"  class="form-control hvr-grow" required>
+                        <div class="alert alert-danger" role="alert" id="addressAlert">A simple primary alert—check it out!</div>
+                        
+                        <label>Telephone </label>
+                        <input type="number" name="tele" placeholder="Enter phone-no:" class="form-control hvr-grow" required>
+                        <div class="alert alert-danger" role="alert" id="teleAlert">A simple primary alert—check it out!</div>
+                        
+                        <label>password </label>
+                        <input type="password" name="password" placeholder="Enter password:" class="form-control hvr-grow" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                        <div class="alert alert-danger" role="alert" id="passAlert">A simple primary alert—check it out!</div>
+                        
+                        <br><br>
+                        <i class="fa fa-sign-in" aria-hidden="true"></i><input type="submit" value="&nbsp;Log In" class="btn  ">&nbsp;
+                        <input type="reset" value="Reset" class="btn  "><i class="fa fa-times" aria-hidden="true" style="margin: 0 -21px;"></i>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="js/fontawesome-free-5.6.3-web/js/fontawesome.min.js"></script>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/html5shiv-master/dist/html5shiv.min.js"></script>
+        <script src="js/Respond-master/dest/respond.min.js"></script>
+        <script src="js/jquery%20project.js"></script>
+        <script src="js/jquery.nicescroll.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>new WOW().init();</script>
+        <script src="js/plugin.js"></script>
+    </body>
+</html>
